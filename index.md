@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DREAM Project Site
+title: Programming Fundamentals Final Project
 ---
 
 * TOC
@@ -8,11 +8,7 @@ title: DREAM Project Site
 
 ## About Me
 
-My info goes here.
-
-## About My Advisor
-
-Advisor info goes here.
+I am Robenas Tadesse and I am a sophomore attending University Laboratory High School. I am  
 
 ## About My Project
 
