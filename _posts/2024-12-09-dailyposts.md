@@ -58,7 +58,7 @@ Day 3 (December 12th)
 
   Overall, **display_winner** function was pretty easy and straightforward compared to the functions I've made so far, although the tricky thing about GUIs is that you can't really know if you did everything right until the final product is run.
   
-  For **check_winner()**, I had to create a series of **if-else-elif** statemnts to encapsulate all the possible winning positions comparing each button to the next to check if they are equal, using the button indicies in this format: **buttons[row][column]["text"]**. I figrued a comprehensive and compact way to do this was to use a **for loop** and **range()**. The had the vague in my head idea but it was annoyingly challenging to implement. I would start typing and then think, "Wait, does this make sense?" I got a pen and paper and and drew each possible tic-tac-toe combination, and what it would correspond to for the **for loop**/**if statement**. 
+  For **check_winner()**, I had to create a series of **if-else-elif** statements to encapsulate all the possible winning positions comparing each button to the next to check if they are equal, using the button indicies in this format: **buttons[row][column]["text"]**. I figrued a comprehensive and compact way to do this was to use a **for loop** and **range()**. The had the vague in my head idea but it was annoyingly challenging to implement. I would start typing and then think, "Wait, does this make sense?" I got a pen and paper and and drew each possible tic-tac-toe combination, and what it would correspond to for the **for loop**/**if statement**. 
   
   I set up the **for loop** with a **range(3)**, and just like rows and columns, the start value is 0. The first **if statement** under the **for loop** had the index (i) in the row position, and the second if satement had the index as the column position. It's really hard to describe in writing but this ensured that after all three iterations were complete, you would capture each of row/column winning patterns. "But that only handles the horizontal/vertical winning positions, what about the diagonals?" You may ask. Well those were handled with two seperate **if statements** outside of the **for loop**, accounting for the diagonal from left to right and the opposite diagonal from right to left.
   
@@ -66,9 +66,10 @@ Day 3 (December 12th)
   
   Also, it's important to not that when using **tkinter**, **"text"** is part of the syntax, because each button or label has a built-in dictionary-like structure that holds different properties, and in this case, **"text"** refers to the text displayed on the button or label.
   
-    Finally for the case of a draw, where no winning position is found, I made a giant if statement with all of the positions not equal to a blank space
+  Finally for the case of a draw, where no winning position is found, I made a giant if statement with all of the positions not equal to a blank space. 
+  
+  Next I will work on the smaller details of the the GUI, like resetting. 
     
-    Next I will work on the smaller details of th T 
     
 ---
 Day 4 (December 13th)
@@ -82,7 +83,9 @@ Day 4 (December 13th)
 Day 5 (December 14th)
 ---
 
-  On December 14th, the stress of not being able to finish on time (warranted in my opinion) wore off significantly once I was in the swing of things and saw how much I got done. At this point I realized it would be a good idea to create a my **game_over** function for my **button_click** function to call, which is really it's only purpose. This is when I had a little burst of excitement. The only thing **game_over** has to do is **return check_winner** 
+  On December 14th, the stress of not being able to finish on time (warranted in my opinion) wore off significantly once I was in the swing of things and saw how much I got done. At this point I realized it would be a good idea to create a my **game_over** function for my **button_click** function to call, which is really it's only purpose. This is when I had a little burst of excitement. The only thing **game_over** has to do is **return check_winner**. But then... oh wait, as I'm writing this I realize there's actually no point for a **game_over** function if my **if statemetns** give me **bool** values in the end. I think I was just so set on my orginial idea-which I will give myself credit, made some sort of sense in the vague beginning-that after refining and tweaking that I disregarded logic until the last second. Well, I guess I'm down to five functions.
+  
+  This means that I slightly over-estimated the work I would be doing today, but within the upcoming days, I will figure out a way to reset the whole grid after a draw or winner, activated by a reset button under the grid. 
 
 ---
 Day 6 (December 15th)
