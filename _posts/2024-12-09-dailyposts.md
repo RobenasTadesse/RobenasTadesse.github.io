@@ -3,8 +3,9 @@
 Day 1 (December 10th) 
 ---
 Hello! Apologies for the lateness, I was busy.
-  On December 10th, I began my journey to create a Graphical User Interface for the Tic-Tac-Toe game. I decided to dive right in, and took Lux's advice to use the **tkinter** library. Tkinter is one of the standard libraries in Python, like **plotly**, **math**, and **random**. 
 
+  On December 10th, I began my journey to create a Graphical User Interface for the Tic-Tac-Toe game. I decided to dive right in, and took Lux's advice to use the **tkinter** library. Tkinter is one of the standard libraries in Python, like **plotly**, **math**, and **random**. 
+  
   Now, for just one day, I learned a lot more than I was expecting. The first thing I learned was that I could not use the **tkinter** library in Google Colab, because it does not support GUI stuff. So then I downloaded Homebrew from my Terminal application, and I already had Python on my computer so that was good. Next, I decided it would be a good idea to install and launch Jupyter Notebook, because I could edit it from my web browser kind of like Colab, but it would support **tkinter**. Here I made it sound like the process was smooth, but there was lot of troubleshooting and dumbfoundedness. But the problems themselves were pretty simple, just being told **zsh: command not found: brew** and **zsh: command not found: jupyter** and on my Terminal. Nevertheless, it required a quite a bit of research to solve.   
   
   Next I familiarized myself with the Juypter and began learning about the basics of tkinter. I honestly love how straightforward the library is, the syntax just feels so logical. To start off anything with **tkinter**, you have to **import tkinter as tk**. To test if everything is up and running, you write **tk._test**, causing a Python window to pop up confirming that everything is working. A tedious thing with the Jupyter Notebook-Python window set up is when you run the code, it won't change anything on the window until you close out of it and run the code on Juypter again.  
@@ -51,16 +52,24 @@ Day 3 (December 12th)
 ---
 
   To begin, I needed create what message would be displayed after the **check_winner** function, which was a fairly easy function. I just used the knowledge I gained from Day 1 and applied it to the label. I learned how to change font, font color, and font size:
+  
    - **lbl.config(text=(TEXT), fg="(COLOR)")** to be put inside the **display_winner** function, so it can be updated on whether the winner is X, O, or a draw.  
   - **lbl = tk.Label(root, text="(TEXT)", font=("NAME OF FONT", FONT SIZE))** to be put at the end of everything becuase it's done        once and nothing changes.
-  Overall, **display_winner** function was pretty easy and straightforward compared to the functions I've made so far, although the tricky thing about GUIs is that you can't really know if you did everything right until the final product is run.
-  For **check_winner()**, I had to create a series of **if-else-elif** statemnts to encapsulate all the possible winning positions comparing each button to the next to check if they are equal, using the button indicies in this format: **buttons[row][column]["text"]**. I figrued a comprehensive and compact way to do this was to use a **for loop** and **range()**. The had the vague in my head idea but it was annoyingly challenging to implement. I would start typing and then think, "Wait, does this make sense?" I got a pen and paper and and drew each possible tic-tac-toe combination, and what it would correspond to for the **for loop**/**if statement**. 
-  I set up the **for loop** with a **range(3)**, and just like rows and columns, the start value is 0. The first **if statement** under the **for loop** had the index (i) in the row position, and the second if satement had the index as the column position. It's really hard to describe in writing but this ensured that after all three iterations were complete, you would capture each of row/column winning patterns. "But that only handles the horizontal/vertical winning positions, what about the diagonals?" You may ask. Well those were handled with two seperate **if statements** outside of the **for loop**, accounting for the diagonal from left to right and the opposite diagonal from right to left.
-  A mistake that I almost made was forgetting to make sure the buttons aren't blank, because technically the **if statements** could be **True** if the buttons were blank but equal. To avoid this issue, I placed **and != ""** at the end. 
-  Also, it's important to not that when using **tkinter**, **"text"** is part of the syntax, because each button or label has a built-in dictionary-like structure that holds different properties, and in this case, **"text"** refers to the text displayed on the button or label.
-    Finally for the case of a draw, where no winning position is found, I made a giant if statement with all of the positions not equal to a blank space
-    Next I will work on the smaller details of  
 
+  Overall, **display_winner** function was pretty easy and straightforward compared to the functions I've made so far, although the tricky thing about GUIs is that you can't really know if you did everything right until the final product is run.
+  
+  For **check_winner()**, I had to create a series of **if-else-elif** statemnts to encapsulate all the possible winning positions comparing each button to the next to check if they are equal, using the button indicies in this format: **buttons[row][column]["text"]**. I figrued a comprehensive and compact way to do this was to use a **for loop** and **range()**. The had the vague in my head idea but it was annoyingly challenging to implement. I would start typing and then think, "Wait, does this make sense?" I got a pen and paper and and drew each possible tic-tac-toe combination, and what it would correspond to for the **for loop**/**if statement**. 
+  
+  I set up the **for loop** with a **range(3)**, and just like rows and columns, the start value is 0. The first **if statement** under the **for loop** had the index (i) in the row position, and the second if satement had the index as the column position. It's really hard to describe in writing but this ensured that after all three iterations were complete, you would capture each of row/column winning patterns. "But that only handles the horizontal/vertical winning positions, what about the diagonals?" You may ask. Well those were handled with two seperate **if statements** outside of the **for loop**, accounting for the diagonal from left to right and the opposite diagonal from right to left.
+  
+  A mistake that I almost made was forgetting to make sure the buttons aren't blank, because technically the **if statements** could be **True** if the buttons were blank but equal. To avoid this issue, I placed **and != ""** at the end. 
+  
+  Also, it's important to not that when using **tkinter**, **"text"** is part of the syntax, because each button or label has a built-in dictionary-like structure that holds different properties, and in this case, **"text"** refers to the text displayed on the button or label.
+  
+    Finally for the case of a draw, where no winning position is found, I made a giant if statement with all of the positions not equal to a blank space
+    
+    Next I will work on the smaller details of th T 
+    
 ---
 Day 4 (December 13th)
 ---
@@ -71,4 +80,10 @@ Day 4 (December 13th)
 
 ---
 Day 5 (December 14th)
+---
+
+  On December 14th, the stress of not being able to finish on time (warranted in my opinion) wore off significantly once I was in the swing of things and saw how much I got done. At this point I realized it would be a good idea to create a my **game_over** function for my **button_click** function to call, which is really it's only purpose. This is when I had a little burst of excitement. The only thing **game_over** has to do is **return check_winner** 
+
+---
+Day 6 (December 15th)
 ---
