@@ -62,7 +62,7 @@ Day 3 (December 12th)
   
   I set up the **for loop** with a **range(3)**, and just like rows and columns, the **range()** start value is 0. The first **if statement** under the **for loop** had the index (i) in the row position, and the second if satement had the index as the column position, with the column and row position incrmenting by one in order to access each button. It's really hard to describe in writing but this ensured that after all three iterations were complete, you would capture each of row/column winning patterns. "But that only handles the horizontal/vertical winning positions, what about the diagonals?" You may ask. Well those were handled with two seperate **if statements** outside of the **for loop**, accounting for the diagonal from left to right and the opposite diagonal from right to left.
   
-  A mistake that I almost made was forgetting to make sure the buttons aren't blank, because technically the **if statements** could be **True** if the buttons were blank but equal. To avoid this issue, I placed **and != ""** at the end. 
+  A mistake that I took extreme scrutiny to find out was forgetting to make sure the buttons aren't blank, because technically the **if statements** could be **True** if the buttons were blank and equal. To avoid this issue, I placed **and != ""** at the end. 
   
   Also, it's important to not that when using **tkinter**, **"text"** is part of the syntax, because each button or label has a built-in dictionary-like structure that holds different properties, and in this case, **"text"** refers to the text displayed on the button or label.
   
@@ -91,4 +91,9 @@ Day 5 (December 14th)
 Day 6 (December 15th)
 ---
 
-  Today I configured the the reset button and connected it to a function. I just reused the concepts I learned for creating and positioning buttons, nothing new about the reset button. So I know the **reset_game()** function needs to do two things: reset the **global** variable 
+  Today I configured the the reset button and connected it to a function. I just reused the concepts I learned for creating and positioning buttons, nothing new about the reset button. So I know the **reset_game()** function needs to do three things: reset the **global** variable, **current_player**, reset 3x3 grid of buttons back to their original blank state, and clear the winner/draw message. The first part was easy: calling the global variable **current_player** and setting it back to "X." The next step was to clear the board, reverting each button to a blank state. To do this, I used the same two nested **for loops** with **range(3)** in the "create 3x3 grid" part of the program. After that it was just a matter of using **buttons[row][col].config(text = "")**. Lastly, to remove the winnner/draw message I used the same **.config()** method but outside of the two **for loops** becuase it only needed to happen once. 
+  Now, I will spend the final days preparing for my presentation, because even though people tell me I don't seem nervous while presenting, my mind is always frantically racing when I have to present anything. So I'll plan everything so things go smoothly and naturally. 
+
+---
+Day 7 (December 16th)
+---
