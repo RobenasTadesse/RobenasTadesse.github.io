@@ -90,3 +90,5 @@ Day 5 (December 14th)
 ---
 Day 6 (December 15th)
 ---
+
+  Today I configured the the reset button and connected it to a function. I just reused the concepts I learned for creating and positioning buttons, nothing new about the reset button. So I know the **reset_game()** function needs to do two things: reset the **global** variable 
