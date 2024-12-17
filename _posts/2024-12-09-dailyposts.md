@@ -104,3 +104,9 @@ Day 7 (December 16th)
   On a different note, I would like to mention that I am extremely proud of myself for being able to make this game with nothing but information from the internet. How this project was panicky and crazy, but I think since I really pushed hard early on, everything's going smoothly now.
 
   Because we are presenting in just three days (oh my goodness) I plan to finish my notes and practice several times with a live audience (family and friends), making sure I will feel comfortable when I am talking. Also, I will of course need to make sure I hit five minutes, nothing more, nothing less, so I will use a hand stopwatch. I am so excited to complete Computer Programming!
+
+---
+Day 8 (December 17th)
+---
+
+  Today I created a Google Doc
