@@ -1,8 +1,6 @@
 ---
 Day 2 (December 11th)
 ---
-
-  BEFORE YOU CONTINUE READING THE REST OF MY BLOG POSTS, I DID NOT DO THEM ALL IN ONE DAY, I JUST DIDN'T KNOW EACH BLOG POST SHOULD'VE BEEN A SEPARATE FILE, AND DID ALL MY DAYS ON ACCIDENT IN THE DAY ONE FILE. 
   
   I decided to focus on three components/behaviors for today's work, button clicking (drawing an "X" or "O" on the 3x3 grid), switching the player, and the configuration of the 3x3 grid. 
   
