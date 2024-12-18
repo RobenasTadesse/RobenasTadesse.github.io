@@ -6,15 +6,8 @@ title: Programming Fundamentals Final Project
 * TOC
 {:toc}
 
-## About Me
 
-I am Robenas Tadesse and I am a sophomore attending University Laboratory High School. I am  
-
-## About My Project
-
-Project description goes here.
-
-[My Final Report](files/finalreport.pdf)
+I am Robenas Tadesse, a sophomore attending University Laboratory High School. I am trying new things out and wanted to learn the basics of computer programming in Python, so here I am!.
 
 ## My Blog
 
