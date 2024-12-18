@@ -9,3 +9,5 @@ Day 8 (December 17th)
   **label.pack()**
   
   **print(label.cget("text")) # It would print "Hello" from the label.** 
+
+  
