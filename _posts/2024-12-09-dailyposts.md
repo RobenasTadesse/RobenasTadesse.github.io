@@ -18,7 +18,7 @@ Hello! Apologies for the lateness, I was busy.
   - To make a button you say **btn = tk.Button(root, text = "(WRITING ON THE BUTTON)", command = (A FUNCTION NAME))**.
       - Position the button: **btn.grid(row = __ , column = __)** rows/columns start at 0, just like **range()**
   - Above the button to make a label: **lbl = tk.Label(root, text = "(WRITING FOR LABEL)")**
-      - Position the button: **lbl.grid(row = __, column = __, columnspan =__)** columnspan indicates how many columns are taken up         by the label, and also starts at 0.  
+      - Position the button: **lbl.grid(row = __, column = __, columnspan =__)** columnspan indicates how many columns are take up         by the label, and also starts at 0.  
 
 The next day I worked on creating a basic interface with a grid and buttons that update based on player moves. I am thinking of doing a thing where each mouse click will alternate after each click. Like it will start with "X" and then go to "O" and so on until there is a winner or draw. After I achieve this I'll add the ability to actually claim a winner (either "X"/"O" or perhaps asking for each player's name?). But anyway, after I make the game I will make the game look colorful and fun to interact with. Also, I think this post is too long so I'll try to condense it in the next post. 
 
