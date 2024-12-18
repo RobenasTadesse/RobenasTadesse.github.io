@@ -8,20 +8,13 @@ name: Robenas Tadesse
 # Short bio or description (displayed in the header)
 description: Programming Fundamentals Final Project
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
 #
 # Flags below are optional
 #
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email: robenas2@illinois.edu
-  facebook:
-  flickr:
-  rss: # just type anything here for a working RSS icon
 
 # Your website URL (e.g. http://ajstent.github.io)
 # Used for Sitemap.xml and your RSS feed
