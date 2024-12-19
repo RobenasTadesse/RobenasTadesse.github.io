@@ -4,7 +4,7 @@ Day 1 (December 10th)
 ---
 Hello! Apologies for the lateness, I was busy.
 
-  On December 10th, I began my journey to create a Graphical User Interface for the tic-tac-toe game. I decided to dive right in and took Lux's advice to use the \tkinter\ library. Tkinter is one of the standard libraries in Python, like **plotly**, **math**, and **random**.
+  On December 10th, I began my journey to create a Graphical User Interface for the tic-tac-toe game. I decided to dive right in and took Lux's advice to use the `tkinter` library. Tkinter is one of the standard libraries in Python, like **plotly**, **math**, and **random**.
 
   I think this project would be interesting to implement because games are playable, cool, and enjoyable to interact with. I also feel like we've talked about GUIs a lot these past several months and I would like to bring my thoughts to life. When (hopefully not if?) I am successful at completing this project, I would be proud of my accomplishment because I think what most people think of when coding comes to mind is somebody who can either make a website or a game. Actually, even if I get a bug that I cannot solve in time, I would still feel proud of the amount I will learn. 
   
