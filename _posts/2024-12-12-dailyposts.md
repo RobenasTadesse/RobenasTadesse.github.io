@@ -1,6 +1,9 @@
 ---
-Day 3 (December 12th)
----
+layout: post
+title: Day 3
+--- 
+
+# Day 3 (December 12th)
 
   To begin, I needed to create what message would be displayed after the `check_winner` function, which was a fairly easy function. I just used the knowledge I gained from Day 1 and applied it to the label. I learned how to change font, font color, and font size:
   
