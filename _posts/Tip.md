@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tips
+title: Tip
 --- 
 
   The thing I found most important about programming fundamentals is keeping a positive, engaged, open mind. If you just start hating everything because you're not good at programming, you'll never get better. So if you fake it till you make it you'll do fine. Also don't worry if someone seems more "skilled" than you. Many things in life are illusions, and your perception of the people around you are one of them, especially when it comes it academic achievements. Just don't let it define you!
