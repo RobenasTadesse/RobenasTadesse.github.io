@@ -3,7 +3,7 @@ layout: post
 title: Day 1
 ---
 
-# Day 1 (December 10th) 
+# (December 10th) 
 
 Hello! Apologies for the lateness, I was busy.
 
