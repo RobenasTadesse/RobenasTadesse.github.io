@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Day 3
+title: Day 9
 --- 
 
-# Day 3 (December 12th)
+# Day 9 (December 18th)
   The thing I found most important about programming fundamentals is keeping a positive, engaged, open mind. If you just start hating everything because you're not good at programming, you'll never get better. So if you fake it till you make it you'll do fine. Also don't worry if someone seems more "skilled" than you. Many things in life are illusions, and your perception of the people around you are one of them, especially when it comes it academic achievements. Just don't let it define you!
 
   My perceptions haven't really changed that much over the semester, I just feel like I learned some very good lessons on perseverance and how powerful a positive mindset can impact growth. I definitely became a better person for myself and others because now I sympathize with those who are struggling with other topics that I deem easy, and I'm a better person to myself because I've really diminished my knack for comparing myself to others. 
