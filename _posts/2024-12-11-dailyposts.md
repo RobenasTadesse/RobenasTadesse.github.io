@@ -13,14 +13,15 @@ I needed to define a function that I could call to configure the behavior of a b
   To create the 3x3 grid of buttons for tic-tac-toe, a function is not required, you can just use two for loops and an empty list one for rows, and another for columns. 
 
   A challenge encountered on this day was the creation of the 3x3 grid. More importantly, a grid that would respond to clicks the way I want. After looking through many resources, I saw that the syntax was very foreign to me and I didn't understand one expression that seemed consistently used in many GUI games: the `lambda` function. This function was basically the backbone of coordinating the row/column button clicking on the grid, and I couldn't seem to find a way around it using the simpler methods we practiced in class. In the end, I went to Python documentation and "6.14. Lambdas" and read many explanations. I also watched a helpful YouTube video and tried using `lambda` myself on some very simple cases. The general syntax is `lambda[PARAMETER(S)] :[EXPRESSION]`. The `lambda` is a helpful tool in Python because it condenses a lot of code into a smaller space. The function is anonymous, meaning it does not have a name and thus should only be used if you use the function once. 
-   <prev>names = ['joe', 'mike', 'sarah']
+  
+   - EXAMPLE 1: `names = ['joe', 'mike', 'sarah']
                uppercase = lambda s: s.upper()
                for name in names:
-                 print(uppercase(name))** # Outputs JOE MIKE SARAH`</prev>
-  - EXAMPLE 2: **numbers = [1, 2, 3]
+                 print(uppercase(name))** # Outputs JOE MIKE SARAH`
+  - EXAMPLE 2: `numbers = [1, 2, 3]
                cubed = lambda x: x ** 3
                for num in numbers:
-                 print(cubed(num))** # Outputs 1 8 27
+                 print(cubed(num))** # Outputs 1 8 27`
 
-  This day took a very long time, and I am relieved to be done. Tomorrow I will begin working on implementing **check_winner()** and **display_winner**. 
+  This day took a very long time, and I am relieved to be done. Tomorrow I will begin working on implementing `check_winner()` and `display_winner`.
 
