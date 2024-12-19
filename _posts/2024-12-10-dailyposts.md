@@ -1,7 +1,11 @@
 
 ---
-Day 1 (December 10th) 
+layout: post
+title: Day 1
 ---
+
+# Day 1 (December 10th) 
+
 Hello! Apologies for the lateness, I was busy.
 
   On December 10th, I began my journey to create a Graphical User Interface for the tic-tac-toe game. I decided to dive right in and took Lux's advice to use the `tkinter` library. Tkinter is one of the standard libraries in Python, like `plotly`, `math`, and `random`.
