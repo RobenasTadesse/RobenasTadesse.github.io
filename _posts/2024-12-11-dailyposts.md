@@ -3,7 +3,7 @@ layout: post
 title: Day 2
 --- 
 
-# Day 2 (December 11th)
+# December 11th
 
   I decided to focus on three components/behaviors for today's work, button clicking (drawing an "X" or "O" on the 3x3 grid), switching the player, and the configuration of the 3x3 grid. 
   
