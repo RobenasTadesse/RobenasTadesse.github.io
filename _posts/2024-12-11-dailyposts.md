@@ -1,7 +1,10 @@
 ---
-Day 2 (December 11th)
----
-  
+layout: post
+title: Day 2
+--- 
+
+# Day 2 (December 11th)
+
   I decided to focus on three components/behaviors for today's work, button clicking (drawing an "X" or "O" on the 3x3 grid), switching the player, and the configuration of the 3x3 grid. 
   
 I needed to define a function that I could call to configure the behavior of a button click. In other words, I needed to make a function saying what would happen when you click a button on the 3x3 grid. The way I implemented this was to start with a variable called `current_player`, which would be equal to a "X," because Xs go first in tic-tac-toe. The biggest challenge on this day was trying to organize my thoughts about the grid and interaction behavior and bring them to life on the Juypter notebook. I knew that I would have to split the game into several user-defined functions. I decided on 6 functions: `button_click(), switch_player(), check_winner(), display_winner(), game_over(),` and `reset_game()`. These functions should have everything I need to create the game. 
