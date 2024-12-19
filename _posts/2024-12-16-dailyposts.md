@@ -2,7 +2,7 @@
 Day 7 (December 16th)
 ---
 
-  I really didn't do much today because I've been spending a lot of time studying for other classes' exams. I've planned my general structure for my presentation: saying what I did and why, showing how my game is playable, explaining what my code does line by line, talking about my challenges and what I did to get around them, and I'll finish off with how I recommend other people to go about using the tkinter library. 
+  I really didn't do much today because I've been spending a lot of time studying for other classes' exams. I've planned my general structure for my presentation: saying what I did and why, showing how my game is playable, explaining what my code does line by line, talking about my challenges and what I did to get around them, and I'll finish off with how I recommend other people to go about using the `tkinter` library. 
   
   On a different note, I would like to mention that I am extremely proud of myself for being able to make this game with nothing but information from the internet. How I imagined this project was panicky and crazy, but I think since I really pushed hard early on, everything's going smoothly now.
 
