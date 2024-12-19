@@ -3,7 +3,7 @@ layout: post
 title: Day 7
 --- 
 
-# Day 7 (December 16th)
+# December 16th
 
   I really didn't do much today because I've been spending a lot of time studying for other classes' exams. I've planned my general structure for my presentation: saying what I did and why, showing how my game is playable, explaining what my code does line by line, talking about my challenges and what I did to get around them, and I'll finish off with how I recommend other people to go about using the `tkinter` library. 
   
