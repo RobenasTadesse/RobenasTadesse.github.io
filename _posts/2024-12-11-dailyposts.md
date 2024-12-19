@@ -18,10 +18,10 @@ I needed to define a function that I could call to configure the behavior of a b
                uppercase = lambda s: s.upper()
                for name in names:
                  print(uppercase(name))** # Outputs JOE MIKE SARAH</pre>
-  - EXAMPLE 2: `numbers = [1, 2, 3]
+  - EXAMPLE 2: <pre>numbers = [1, 2, 3]
                cubed = lambda x: x ** 3
                for num in numbers:
-                 print(cubed(num))** # Outputs 1 8 27`
+                 print(cubed(num))** # Outputs 1 8 27</pre>
 
   This day took a very long time, and I am relieved to be done. Tomorrow I will begin working on implementing `check_winner()` and `display_winner`.
 
