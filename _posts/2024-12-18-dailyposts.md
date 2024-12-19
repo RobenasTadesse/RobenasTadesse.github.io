@@ -3,7 +3,7 @@ layout: post
 title: Day 9
 --- 
 
-# Day 9 (December 18th)
+# December 18th
 
   I finished creating my Google Slides and speaker notes only to realize while I was practicing that my presentation would be ten minutes long instead of five. I just feel so obliged to mention everything when realistically, that's not achievable in five minutes. After I reviewed the Slack message and the guidelines on Canvas I really cut down (painfully) on the unnecessary, redundant, and boring aspects of my presentation. The third time I practiced, I got my time down to 5 minutes on the dot. Right now I feel really prepared and relaxed, almost excited, but I always get really nervous at the last second, even if I'm apparently good at masking it. 
 
