@@ -6,7 +6,7 @@ Tips
 
   My perceptions haven't really changed that much over the semester, I just feel like I learned some very good lessons on perseverance and how powerful a positive mindset can impact growth. I definitely became a better person for myself and others because now I sympathize with those who are struggling with other topics that I deem easy, and I'm a better person to myself because I've really diminished my knack for comparing myself to others. 
 
-## A Letter to Incoming Semester 2 Students
+### A Letter to Incoming Semester 2 Students
 
   Specifically for those of you who have never or barely coded using Python, this class WILL be hard, expect it and 
 prepare with the necessary measures. And as I'm writing this I know it won't do much because I was basically told 
